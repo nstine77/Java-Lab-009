@@ -1,5 +1,6 @@
 # Immutable and Mutable Objects
 
+
 **Instructions:**
 
 1. Fork this repository to your GitHub account.
@@ -16,7 +17,7 @@
     * Is the **blank** object mutable or immutable? How can you tell?
 
 ```text
-PUT ANSWER TO #2 HERE
+Strings are immutable (p.151)
 ```
 
 ```java
@@ -47,7 +48,9 @@ public class Puzzler {
     * Explain how the return values from #3 and #4 differ.
 
 ```text
-PUT ANSWER TO #5 HERE
+findCenter returns a Point object - a single object with x-y coordinates.  
+Distance returns a double value.  It represents the length of space between two points,
+ in a (presumably) straight line.
 ```
 
 ```java
@@ -87,14 +90,14 @@ Recall that aliases are two variables that refer to the same object.
     * Put the output in the text block below
 
 ```text
-PUT ANSWER TO #2 HERE
+PythonTutor.com shows the output as (5, 8)
 ```
 
 3. At the end of main, are p1 and p2 aliased? Why or why not?
     * Put your answer in the text block below
 
 ```text
-PUT ANSWER TO #3 HERE
+no.  Not sure if I articulate this right, but findCenter created a Point object the first time, then the value got modified before findCenter was called again.  
 ```
 
 ```java
